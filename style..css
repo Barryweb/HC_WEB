@@ -27,8 +27,11 @@ nav{
 a{
     text-decoration: none;
     transition: 0.2s;
+    color: #808e9b;
+    font-family: ff;
+    font-size: 18px;
 }
 #nav a:hover{
     color: #1e272e;
-    font-size: 22px;
+    font-size: 30px;
 }
