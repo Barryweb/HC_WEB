@@ -1,3 +1,22 @@
+@font-face{
+    font-family:ff;
+    src: url(./font/ff.ttf);
+}
 *{
-    color:black
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+nav{
+    display: grid;
+    grid-template-columns:30% 70%;
+    /* text-decoration: none; */
+    padding: 10px;
+    margin: 15px;
+}
+#logo span{
+    font-family: ff;
+    font-size: 60px;
+    
 }
