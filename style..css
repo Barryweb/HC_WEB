@@ -11,8 +11,15 @@
 nav{
     display: grid;
     grid-template-columns:30% 70%;
+    width: 100%;
     padding: 30px;
-    margin: 15px;
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
+    background: rgba(0,0,0,0.5);
+    color: white;
+
+    
 }
 #logo span{
     font-family: ff;
@@ -34,4 +41,11 @@ a{
 #nav a:hover{
     color: #1e272e;
     font-size: 30px;
+}
+
+#banner{
+    height: 100vh;
+    background-image: url(./img/noodle.jpg);
+    background-size: cover;
+    background-position: center;
 }
