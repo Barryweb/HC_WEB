@@ -119,9 +119,7 @@ section hr{
 #news div a:hover{
     color:red;
 }
-#contact{
-    text-align: center;
-}
+
 #contact p{
     text-align: center;
     margin: 0 auto;
@@ -130,7 +128,8 @@ section hr{
 }
 #contact form{
     width: 80%;
-    margin: 0 auto;
+    margin:0 auto;
+    text-align: center;
 }
 #contact form div{
     display: grid;
