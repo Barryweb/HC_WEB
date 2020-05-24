@@ -8,6 +8,7 @@
     font-family: 微軟正黑體;
     box-sizing: border-box;
 }
+/* 導覽列 */
 nav{
     display: grid;
     grid-template-columns:30% 70%;
@@ -15,15 +16,13 @@ nav{
     padding: 30px;
     position: fixed;
     top: 0;
-    background-color: aliceblue;
     background: rgba(0,0,0,0.5);
-    color: white;
-
     
 }
 #logo span{
     font-family: ff;
     font-size: 60px; 
+    color: white;
 }
 #nav{
     display: grid;
@@ -34,18 +33,95 @@ nav{
 a{
     text-decoration: none;
     transition: 0.2s;
-    color: #808e9b;
     font-family: ff;
     font-size: 18px;
+    color: white;
 }
 #nav a:hover{
-    color: #1e272e;
+    color: white;
     font-size: 30px;
 }
-
+/* 橫幅 */
 #banner{
     height: 100vh;
     background-image: url(./img/noodle.jpg);
     background-size: cover;
     background-position: center;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
+#banner div{
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+#banner div h1,div h4{
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.8);
+}
+#banner div h1{
+    font-size: 140px;
+}
+#banner div h4{
+    font-size: 40px;
+    text-align: left;
+}
+/* about */
+section{
+    width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+#about > div{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+}
+#about .img{
+    background-image: url(./img/ramen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+section h1{
+    margin-top: 40px;
+    font-size: 40px;
+}
+section hr{
+    margin-bottom: 40px;
+}
+#about div p{
+    line-height: 30px;
+    font-size: 23px;
+    font-family: ff;
+    padding: 0 26px;
+
+}
+/* news */
+#news ul{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10px 0;
+    list-style: none;
+    align-items: center;
+}
+#news ul span{
+    color: gray;
+    padding: 10px 0;
+}
+#news a{
+    color: black;
+    text-decoration: none;
+}
+#news div{
+    text-align: right;
+}
+#contact p{
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    line-height: 30px;
+}
+
